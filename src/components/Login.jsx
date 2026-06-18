@@ -77,7 +77,7 @@ const Login = ({ entrar }) => {
                 type="text"
                 value={nombre}
                 onChange={(e) => setNombre(e.target.value)}
-                placeholder="Tu nombre"
+                placeholder="Diego Carlos"
                 required
                 className="border border-rose-300 rounded px-4 py-2 outline-none focus:border-purple-400 focus:shadow-lg"
               />
@@ -88,7 +88,7 @@ const Login = ({ entrar }) => {
             type="email"
             value={correo}
             onChange={(e) => setCorreo(e.target.value)}
-            placeholder="Tu correo"
+            placeholder="correo@dominio.com"
             required
             className="border border-rose-200 rounded px-4 py-2 outline-none focus:border-purple-400 focus:shadow-lg"
           />
